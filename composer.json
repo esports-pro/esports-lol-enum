@@ -1,0 +1,23 @@
+{
+    "name": "esports-pro/esports-lol-enum",
+    "ver"
+    "description": "Currently contains \"match status\", \"player role\", \"event type\". Update from time to time",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sung",
+            "email": "sung@esports-pro.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "eloquent/enumeration": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EsportsLOLEnum\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
