@@ -1,5 +1,7 @@
 <?php
 
+namespace EsportsLolEnum;
+
 use Eloquent\Enumeration\AbstractEnumeration;
 
 class Event extends AbstractEnumeration

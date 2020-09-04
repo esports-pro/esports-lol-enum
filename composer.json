@@ -1,7 +1,7 @@
 {
     "name": "esports-pro/esports-lol-enum",
     "ver"
-    "description": "Currently contains \"match status\", \"player role\", \"event type\". Update from time to time",
+    "description": "Enumeration classes used in LOL data development",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EsportsLOLEnum\\": "src/"
+            "EsportsLolEnum\\": "src/"
         }
     },
     "minimum-stability": "stable"
