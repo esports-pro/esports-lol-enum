@@ -1,6 +1,5 @@
 {
     "name": "esports-pro/esports-lol-enum",
-    "ver"
     "description": "Enumeration classes used in LOL data development",
     "type": "library",
     "license": "MIT",
