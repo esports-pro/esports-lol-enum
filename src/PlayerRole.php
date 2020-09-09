@@ -1,4 +1,5 @@
 <?php
+namespace EsportsLolEnum;
 
 use Eloquent\Enumeration\AbstractEnumeration;
 
