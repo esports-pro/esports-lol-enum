@@ -11,7 +11,7 @@ namespace EsportsLolEnum;
 
 use Eloquent\Enumeration\AbstractEnumeration;
 
-class AbstractEnum extends AbstractEnumeration
+abstract class AbstractEnum extends AbstractEnumeration
 {
     public static function getValueByKey($key,$default = 0)
     {
