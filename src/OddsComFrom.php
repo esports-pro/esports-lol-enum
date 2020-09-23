@@ -1,9 +1,7 @@
 <?php
 namespace EsportsLolEnum;
 
-use Eloquent\Enumeration\AbstractEnumeration;
-
-class OddsComFrom extends AbstractEnumeration
+class OddsComFrom extends AbstractEnum
 {
     const LJJ    = 1;
     const SB     = 2;

@@ -2,9 +2,7 @@
 
 namespace EsportsLolEnum;
 
-use Eloquent\Enumeration\AbstractEnumeration;
-
-class Event extends AbstractEnumeration
+class Event extends AbstractEnum
 {
     const PLAYER = 1;
     const DRAKE  = 2;

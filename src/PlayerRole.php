@@ -1,9 +1,7 @@
 <?php
 namespace EsportsLolEnum;
 
-use Eloquent\Enumeration\AbstractEnumeration;
-
-class PlayerRole extends AbstractEnumeration
+class PlayerRole extends AbstractEnum
 {
     const TOP = 1;
     const JUN = 2;

@@ -2,9 +2,7 @@
 
 namespace EsportsLolEnum;
 
-use Eloquent\Enumeration\AbstractEnumeration;
-
-class LeagueStatus extends AbstractEnumeration
+class LeagueStatus extends AbstractEnum
 {
     const UPCOMING  = 0;
     const RUNNING   = 1;
