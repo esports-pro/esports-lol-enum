@@ -23,4 +23,15 @@ abstract class AbstractEnum extends AbstractEnumeration
             return $default;
         }
     }
+
+    public static function getKeyByValue($value,$default = null)
+    {
+        $ret = self::memberByValueWithDefault($value,null);
+        if($ret !== null) {
+            return $ret->key();
+        } else {
+            return $default;
+        }
+    }
+
 }
