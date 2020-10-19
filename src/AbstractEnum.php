@@ -34,4 +34,22 @@ abstract class AbstractEnum extends AbstractEnumeration
         }
     }
 
+    public static function getValueList()
+    {
+        $ret = [];
+        foreach(self::members() as $member) {
+            $ret[] = $member->value();
+        }
+        return $ret;
+    }
+
+    public static function getKeyList($isLowString = false)
+    {
+        $ret = [];
+        foreach(self::members() as $member) {
+            $ret[] = !$isLowString ? $member->key() : strtolower($member->key());
+        }
+        return $ret;
+    }
+
 }
